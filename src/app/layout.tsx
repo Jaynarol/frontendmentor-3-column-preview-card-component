@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fontLexend.className}>{children}</body>
+      <body
+        className={`${fontLexend.className} bg-neutral-gray flex min-h-screen flex-col items-center justify-center`}
+      >
+        {children}
+      </body>
     </html>
   )
 }
