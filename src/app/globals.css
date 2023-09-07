@@ -7,20 +7,20 @@ html {
   font-size: 15px;
 }
 
-.carsgrid>div:first-child {
+.carsgrid>section:first-child {
   @apply rounded-t-lg;
 }
 
-.carsgrid>div:last-child {
+.carsgrid>section:last-child {
   @apply rounded-b-lg;
 }
 
 @screen sm {
-  .carsgrid>div:first-child {
+  .carsgrid>section:first-child {
     @apply rounded-t-none rounded-l-lg;
   }
 
-  .carsgrid>div:last-child {
+  .carsgrid>section:last-child {
     @apply rounded-b-none rounded-r-lg;
   }
 }
