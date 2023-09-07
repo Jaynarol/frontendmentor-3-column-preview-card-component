@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fontLexend.className} bg-neutral-gray flex min-h-screen flex-col items-center justify-center`}
+        className={`${fontLexend.className} flex min-h-screen flex-col items-center justify-center bg-neutral-gray`}
       >
         {children}
       </body>
